@@ -1,4 +1,12 @@
+.HeaderAnimation {
+	height: 300px;
+}
+
 .Heading {
 	color: white;
 	font-size: large;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
 }
