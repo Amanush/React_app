@@ -1,12 +1,21 @@
 .HeaderAnimation {
-	height: 300px;
+	height: 350px;
 }
 
-.Heading {
+.title {
 	color: white;
 	font-size: large;
+	margin: 10px;
 	padding-right: 50px;
 	padding-left: 50px;
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 20px;
+	font-size: 30px;
+}
+.HeaderMenu {
+	color: white;
+	font-size: large;
+	padding-right: 50px;
+	padding-left: 700px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
 }
