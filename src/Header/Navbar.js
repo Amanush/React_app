@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import {Grid, Row, Col} from 'react-bootstrap';
-// import MenuItem from './MenuItem';
+import MenuItem from './MenuItem';
 
 class Navbar extends Component {
 
@@ -10,21 +10,17 @@ class Navbar extends Component {
 	render() {
 		return (
 			<div className="Nav-bar">
-				<Grid fluid={true}>
-					<Row>
-					<Col md={12}>
-						<Col md={4}>
-							derp
+					<Col md={12} mdOffset={3}>
+						<Col md={2}>
+							<MenuItem name={"Physics"} />
 						</Col>
-						<Col md={4}>
-							derp
+						<Col md={2}>
+							<MenuItem name={"Potato"} />
 						</Col>
-						<Col md={4}>
-							derp
+						<Col md={2}>
+							<MenuItem name={"Salad"} />
 						</Col>
 					</Col>
-					</Row>
-				</Grid>	
 			</div>
 		);
 	};

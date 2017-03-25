@@ -2,23 +2,27 @@
 	height: 350px;
 }
 
-.nameplate {
-	color: white;
-	font-size: large;
-	margin: 10px;
-	padding-right: 50px;
-	padding-left: 50px;
-	font-size: 30px;
+h1 {
+	font-size: 60pt;
+	font-feature-settings: normal;
+	margin: 0;
 }
+
+h2 {
+	font-size: 20pt;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nameplate {
+	margin-bottom: 30px;
+}
+
 .Nav-bar {
 	color: white;
-	font-size: large;
-	padding-right: 50px;
-	padding-left: 700px;
-	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 30px;
 }
-/*.Nav-bar {
-	width: 66%;
-	display: inline-block;
-}*/
+
+h3 {
+	text-align: center;
+	vertical-align: middle;
+}
