@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './header.css';
+// import { Row, Col } from 'react-bootstrap';
 
-class Heading extends Component {
+class Nameplate extends Component {
 
 	render() {
 		return (
-			<div className="title">
+			<div className="nameplate">
 				<h1> Michael Kewming </h1>
 			</div>
 		);
 	};
 };
 
-export default Heading;
+export default Nameplate;
